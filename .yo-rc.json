@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "hakoBlankApp",
+    "packageName": "io.github.hako.application",
+    "packageFolder": "io/github/hako/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "ODcyNWQyMDRjYzdjOTVkMjU0NDM5MjA3OWI4MDU3OTY5NWViZDY1NmU2OTI2YzdmM2RlMmMxOTE3NzQ4MzNjYTYyODQ3OWYxZGEwMjc0Y2FjNDg4ODQyNzJlMjhmMTk5YjEzMWJmNWY3MjU4MDI3Yjc0ZTcxZDYxNDUwMzUwOTQ=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "akiroussama",
+  "repository-name": "hako-blank-application"
+}
